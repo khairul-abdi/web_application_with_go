@@ -37,7 +37,5 @@ func main() {
 
 	buf := new(bytes.Buffer)
 	buf.ReadFrom(resp.Body)
-	s :=
-		fmt.Println(buf.String())
-
+	fmt.Println(buf.String())
 }

@@ -9,6 +9,9 @@ import (
 	"net/http"
 )
 
+// https://go.dev/
+// https://golang.org
+
 func main() {
 	// membuat koneksi ke server golang.org melalui tcp network
 	conn, err := net.Dial("tcp", "golang.org:80")
